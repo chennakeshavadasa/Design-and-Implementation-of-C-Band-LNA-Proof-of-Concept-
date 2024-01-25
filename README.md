@@ -5,8 +5,6 @@ This is a repository for Proof of Concept of Design and Implementation of a C ba
 # Specifications for C-Band LNA
 ## Frequency Range
 - 3625 MHz to 4800 MHz
-
-## Performance Characteristics
 - Noise Figure: < 3dB
 - Gain: 60 dB (minimum)
 - Input VSWR: 1.30 : 1
@@ -14,11 +12,7 @@ This is a repository for Proof of Concept of Design and Implementation of a C ba
 - Max. Input Power without damage: 0 dBm
 - Power Output (@ 1-dB Gain Compression): +10 dBm (minimum)
 - Output Third Order Intercept (OIP3): +20 dBm (minimum)
-
-## Operating Conditions
 - Temperature Range: 0 to +60 °C
-
-## Usage Guidelines
 - Ensure the frequency is within the specified range.
 - Keep the input power below 0 dBm to prevent damage.
 - The amplifier operates optimally in temperatures ranging from 0 to +60 °C.
