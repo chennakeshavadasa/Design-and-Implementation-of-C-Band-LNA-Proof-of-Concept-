@@ -1,8 +1,5 @@
 <p align="center">ॐ नमो वडक्कुमन्नाथन ॐ</p>
 
-# Warning
-This project is ongoing and is in its earliest infant form so take it with a grain of salt
-
 # Design-and-Implementation-of-C-Band-LNA-Proof-of-Concept-
 This is a repository for Proof of Concept of Design and Implementation of a C band Low Noise Amplifier for Geo Stationary Satellite Communication
 # Specifications for C-Band LNA
@@ -18,6 +15,9 @@ This is a repository for Proof of Concept of Design and Implementation of a C ba
 - Ensure the frequency is within the specified range.
 - Keep the input power below 0 dBm to prevent damage.
 - The amplifier operates optimally in temperatures ranging from 0 to +60 °C.
+
+# Warning
+This project is ongoing and is in its earliest infant form so take it with a grain of salt
 
 
 
