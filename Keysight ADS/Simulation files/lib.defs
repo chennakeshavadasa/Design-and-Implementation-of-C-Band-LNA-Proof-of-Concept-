@@ -1,0 +1,4 @@
+INCLUDE $HPEESOF_DIR/oalibs/analog_rf.defs
+DEFINE kuyesa_lib kuyesa_lib
+ASSIGN kuyesa_lib libMode shared
+INCLUDE $HOME/RF_Transistors_vendor_kit/lib.defs
