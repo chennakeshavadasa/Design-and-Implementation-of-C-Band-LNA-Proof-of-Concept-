@@ -1,0 +1,45 @@
+<ADSWorkspace Revision="2" Version="100">
+    <Workspace Name="">
+        <Library Name="ads_standard_layers_ic" />
+        <Library Name="ads_schematic_layers_ic" />
+        <Library Name="ads_schematic_ports_ic" />
+        <Library Name="ads_rflib" />
+        <Library Name="ads_sources" />
+        <Library Name="ads_simulation" />
+        <Library Name="ads_tlines" />
+        <Library Name="ads_bondwires" />
+        <Library Name="ads_datacmps" />
+        <Library Name="ads_behavioral" />
+        <Library Name="ads_textfonts" />
+        <Library Name="ads_common_cmps" />
+        <Library Name="ads_designs" />
+        <Library Name="ads_verification_test_bench" />
+        <Library Name="kuyesa_lib" />
+        <Library Name="ads_standard_layers" />
+        <Library Name="adstechlib" />
+        <Library Name="ads_schematic_layers" />
+        <Library Name="empro_standard_layers" />
+        <Library Name="RF_Transistors" />
+        <Cell Name="kuyesa_lib:Step1_DCIV" />
+        <Cell Name="kuyesa_lib:Step2_Stability" />
+        <Cell Name="kuyesa_lib:cell_1" />
+        <Data_Display Name="Step1_DCIV.dds" />
+        <Dataset Name="Step1_DCIV.ds" />
+        <Dataset Name="Step2_Stability.ds" />
+        <Log Name="netlist.log" />
+        <Log Name="search_history.log" />
+        <Preferences Name="kuyesa_lib_lay.prf" />
+        <Preferences Name="layout.prf" />
+        <Preferences Name="schematic.prf" />
+        <LibraryDefs Name="lib.defs" />
+        <ConfigFile Name="dds.cfg" />
+        <ConfigFile Name="de_sim.cfg" />
+        <ConfigFile Name="hpeesofsim.cfg" />
+        <Cell Name="kuyesa_lib:schematics before stabilty" />
+        <Dataset Name="schematics_before_stabilty.ds" />
+        <Data_Display Name="schematics before stabilty.dds" />
+        <Data_Display Name="Step2_Stability.dds" />
+        <Cell Name="kuyesa_lib:with op res" />
+        <Dataset Name="with_op_res.ds" />
+    </Workspace>
+</ADSWorkspace>
