@@ -1,0 +1,39 @@
+
+Options ResourceUsage=yes UseNutmegFormat=no EnableOptim=no TopDesignName="kuyesa_lib:Step1_DCIV:schematic" DcopOutputNodeVoltages=yes DcopOutputPinCurrents=yes DcopOutputAllSweepPoints=no DcopOutputDcopType=0
+Short:IDS  N__1 N__4 Mode=0 SaveCurrent=yes 
+V_Source:SRC2  N__3 0 Type="V_DC" Vdc=VGS SaveCurrent=1 
+V_Source:SRC1  N__1 0 Type="V_DC" Vdc=VDS SaveCurrent=1 
+
+VDS =0 V
+VGS =0 V
+ParamSweep:Sweep1 SimInstanceName[1]="DC1" StatusLevel=2 SweepVar="VGS" SweepPlan="Sweep1_stim" 
+
+SweepPlan: Sweep1_stim Start=-1 Stop=0 Step=0.1 
+
+DC:DC1 StatusLevel=2 DevOpPtLevel=0 UseFiniteDiff=no PrintOpPoint=no Restart=1 \
+SweepVar="VDS" SweepPlan="DC1_stim" OutputPlan="DC1_Output" 
+
+SweepPlan: DC1_stim Start=0 Stop=5 Step=0.1 
+
+OutputPlan:DC1_Output \
+      Type="Output" \
+      UseNodeNestLevel=yes \
+      NodeNestLevel=2 \
+      UseEquationNestLevel=yes \
+      EquationNestLevel=2 \
+      UseSavedEquationNestLevel=yes \
+      SavedEquationNestLevel=2 \
+      UseDeviceCurrentNestLevel=no \
+      DeviceCurrentNestLevel=0 \
+      DeviceCurrentDeviceType="All" \
+      DeviceCurrentSymSyntax=yes \
+      UseCurrentNestLevel=yes \
+      CurrentNestLevel=999 \
+      UseDeviceVoltageNestLevel=no \
+      DeviceVoltageNestLevel=0 \
+      DeviceVoltageDeviceType="All"
+
+
+;#@# autodisplay="FET_curve_tracer"
+#uselib "RfTransistorLibrary" , "pf_hp_ATF21170_19931015"
+pf_hp_ATF21170_19931015:A1  N__4 N__3 0 0 
